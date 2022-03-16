@@ -1,0 +1,8 @@
+{
+  "name": "zenn-contents",
+  "packageManager": "pnpm@6.32.3",
+  "dependencies": {
+    "@types/markdown-it": "*",
+    "zenn-cli": "^0.1.107"
+  }
+}
