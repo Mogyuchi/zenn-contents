@@ -2,7 +2,7 @@
   "name": "zenn-contents",
   "packageManager": "pnpm@6.32.3",
   "scripts": {
-    "start": "next start",
+    "start": "zenn preview",
     "lint": "textlint .",
     "postinstall": "git config --local core.hooksPath .githooks && chmod -R +x .githooks/"
   },
