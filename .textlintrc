@@ -1,5 +1,11 @@
 {
-  "filters": {},
+  "filters": {
+    "allowlist": {
+      "allow": [
+        ":::"
+      ]
+    }
+  },
   "rules": {
     "@proofdict/proofdict": {
       "dictURL": "https://azu.github.io/proof-dictionary/"

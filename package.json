@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@types/markdown-it": "*",
+    "textlint-filter-rule-allowlist": "^4.0.0",
     "zenn-cli": "^0.1.108"
   },
   "devDependencies": {
