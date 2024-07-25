@@ -7,17 +7,17 @@
 		"postinstall": "git config --local core.hooksPath .githooks && chmod -R +x .githooks/"
 	},
 	"dependencies": {
-		"@types/markdown-it": "*",
-		"textlint-filter-rule-allowlist": "^4.0.0",
-		"zenn-cli": "^0.1.131"
+		"@types/markdown-it": "12.2.3",
+		"textlint-filter-rule-allowlist": "4.0.0",
+		"zenn-cli": "0.1.131"
 	},
 	"devDependencies": {
-		"@proofdict/textlint-rule-proofdict": "^3.1.2",
-		"@textlint/ast-node-types": "^12.2.2",
-		"@textlint/types": "^12.2.2",
-		"textlint": "^12.2.2",
-		"textlint-rule-preset-ja-spacing": "^2.2.0",
-		"textlint-rule-preset-ja-technical-writing": "^7.0.0",
-		"textlint-rule-terminology": "^3.0.4"
+		"@proofdict/textlint-rule-proofdict": "3.1.2",
+		"@textlint/ast-node-types": "12.2.2",
+		"@textlint/types": "12.2.2",
+		"textlint": "12.2.2",
+		"textlint-rule-preset-ja-spacing": "2.4.3",
+		"textlint-rule-preset-ja-technical-writing": "7.0.0",
+		"textlint-rule-terminology": "3.0.5"
 	}
 }
