@@ -25,8 +25,8 @@ importers:
         specifier: 12.2.2
         version: 12.2.2
       '@textlint/types':
-        specifier: 12.2.2
-        version: 12.2.2
+        specifier: 12.6.1
+        version: 12.6.1
       textlint:
         specifier: 12.2.2
         version: 12.2.2
@@ -181,9 +181,6 @@ packages:
 
   '@textlint/types@1.5.5':
     resolution: {integrity: sha512-80P6fcqgsG9bP6JgR6W/E/oIx+71pplaicYCvvB4vMIeGk0OnWls4Q21kCpDYmq/C/ABtZ/Gy/Ov/8ExQPeQ7A==}
-
-  '@textlint/types@12.2.2':
-    resolution: {integrity: sha512-fmKH9w8O3XOvIvf3cPNI7PWdJScRIiJYJ5VsoIMp/o41Hlkt5m//MObfAPYpQ/3nuXhzlB05kfRUxyj/NvcPAQ==}
 
   '@textlint/types@12.6.1':
     resolution: {integrity: sha512-t1SZYahu2olnF8MUhlP6qDIEDyl7WmyIaBYxQdE2qU6xUkZWXS2zIxoAT/pVgvFCzDw3KO5HhIYGVeWRp90dTg==}
@@ -1826,10 +1823,6 @@ snapshots:
     dependencies:
       '@textlint/ast-node-types': 4.4.3
 
-  '@textlint/types@12.2.2':
-    dependencies:
-      '@textlint/ast-node-types': 12.2.2
-
   '@textlint/types@12.6.1':
     dependencies:
       '@textlint/ast-node-types': 12.6.1
@@ -3349,7 +3342,7 @@ snapshots:
       '@textlint/module-interop': 12.6.1
       '@textlint/textlint-plugin-markdown': 12.6.1
       '@textlint/textlint-plugin-text': 12.6.1
-      '@textlint/types': 12.2.2
+      '@textlint/types': 12.6.1
       '@textlint/utils': 12.6.1
       debug: 4.3.5
       deep-equal: 1.1.2
