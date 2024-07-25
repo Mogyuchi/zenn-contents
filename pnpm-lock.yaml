@@ -37,8 +37,8 @@ importers:
         specifier: 10.0.1
         version: 10.0.1(textlint@14.0.4)
       textlint-rule-terminology:
-        specifier: 3.0.5
-        version: 3.0.5
+        specifier: 5.1.9
+        version: 5.1.9
 
 packages:
 
@@ -1394,9 +1394,9 @@ packages:
   textlint-rule-sentence-length@5.0.0:
     resolution: {integrity: sha512-NRbzbMYSKZVZWTarJo/uVpHMGe91uZyR4td6fipWmDAwJjjX2HYa6aYEfLM/X99ymo9aLUnOD6wWaUttgViRbw==}
 
-  textlint-rule-terminology@3.0.5:
-    resolution: {integrity: sha512-IZw8byc4GjyccNjGwSMfy5OSxvjwTGk3IK3qMw2rJ0fsgCYQVlx5JThEQrs4CbWNQN6k2hAinIlxTzxgR00Hmw==}
-    engines: {node: '>=14'}
+  textlint-rule-terminology@5.1.9:
+    resolution: {integrity: sha512-VTewy0iVdPmalM2JxW/zI300693Q33JcX7+QdXyWFeeS2p9tFkvdlR8VNVvGM9VGqRWdX5MDuPBspVo7DWzrkw==}
+    engines: {node: '>=20'}
 
   textlint-tester@13.4.1:
     resolution: {integrity: sha512-Ubm9kUZ/NyY0Ggo1RkW2o5QSx6EJ/ogMT1kD5b5pk4cdFTWpUSs8StDMROgcz29wPhvS6sY/35qYALzqyZh8ew==}
@@ -3328,7 +3328,7 @@ snapshots:
       textlint-rule-helper: 2.3.1
       textlint-util-to-string: 3.3.4
 
-  textlint-rule-terminology@3.0.5:
+  textlint-rule-terminology@5.1.9:
     dependencies:
       lodash: 4.17.21
       strip-json-comments: 3.1.1
