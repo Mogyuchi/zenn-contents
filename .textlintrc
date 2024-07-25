@@ -1,17 +1,17 @@
 {
-  "filters": {
-    "allowlist": {
-      "allow": [
-        ":::"
-      ]
-    }
-  },
-  "rules": {
-    "@proofdict/proofdict": {
-      "dictURL": "https://azu.github.io/proof-dictionary/"
-    },
-    "preset-ja-spacing": true,
-    "preset-ja-technical-writing": true,
-    "terminology": true
-  }
+	"filters": {
+		"allowlist": {
+			"allow": [
+				":::"
+			]
+		}
+	},
+	"rules": {
+		"@proofdict/proofdict": {
+			"dictURL": "https://azu.github.io/proof-dictionary/"
+		},
+		"preset-ja-spacing": true,
+		"preset-ja-technical-writing": true,
+		"terminology": true
+	}
 }
