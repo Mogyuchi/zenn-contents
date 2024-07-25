@@ -15,8 +15,8 @@ importers:
         specifier: 4.0.0
         version: 4.0.0(textlint@12.2.2)
       zenn-cli:
-        specifier: 0.1.131
-        version: 0.1.131
+        specifier: 0.1.154
+        version: 0.1.154
     devDependencies:
       '@proofdict/textlint-rule-proofdict':
         specifier: 3.1.2
@@ -1561,8 +1561,8 @@ packages:
     resolution: {integrity: sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==}
     engines: {node: '>=0.4'}
 
-  zenn-cli@0.1.131:
-    resolution: {integrity: sha512-oikfVMJHSKMFpN3nhhwb8sy0890HJGgC3T4Q5/Av75SWRy8uAUJUSGNDFJL+ysResBFJwXsf/Pg0GHmRMbkUPQ==}
+  zenn-cli@0.1.154:
+    resolution: {integrity: sha512-s9SZst7TWiA2VS+40CWUS7pu5cl2OAIhNPyiAtqIwjDFzqB47vVsN78G8VK7VZ7ov6B4gqQrQHcgMHVqvoLN8g==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -3584,7 +3584,7 @@ snapshots:
 
   xtend@4.0.2: {}
 
-  zenn-cli@0.1.131: {}
+  zenn-cli@0.1.154: {}
 
   zlibjs@0.3.1: {}
 

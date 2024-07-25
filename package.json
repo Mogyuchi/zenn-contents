@@ -9,7 +9,7 @@
 	"dependencies": {
 		"@types/markdown-it": "12.2.3",
 		"textlint-filter-rule-allowlist": "4.0.0",
-		"zenn-cli": "0.1.131"
+		"zenn-cli": "0.1.154"
 	},
 	"devDependencies": {
 		"@proofdict/textlint-rule-proofdict": "3.1.2",
