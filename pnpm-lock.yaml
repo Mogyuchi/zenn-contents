@@ -22,8 +22,8 @@ importers:
         specifier: 3.1.2
         version: 3.1.2
       '@textlint/ast-node-types':
-        specifier: 12.6.1
-        version: 12.6.1
+        specifier: 14.0.4
+        version: 14.0.4
       '@textlint/types':
         specifier: 12.6.1
         version: 12.6.1
@@ -112,6 +112,9 @@ packages:
 
   '@textlint/ast-node-types@13.4.1':
     resolution: {integrity: sha512-qrZyhCh8Ekk6nwArx3BROybm9BnX6vF7VcZbijetV/OM3yfS4rTYhoMWISmhVEP2H2re0CtWEyMl/XF+WdvVLQ==}
+
+  '@textlint/ast-node-types@14.0.4':
+    resolution: {integrity: sha512-O7L1pgle030Co9ou1+6e2/6GgcIpKgqwEc0XiBabokc22Yl0QEkrf00K/usBDmSx+wo1ficWBux2mfBEF0jnDA==}
 
   '@textlint/ast-node-types@4.4.3':
     resolution: {integrity: sha512-qi2jjgO6Tn3KNPGnm6B7p6QTEPvY95NFsIAaJuwbulur8iJUEenp1OnoUfiDaC/g2WPPEFkcfXpmnu8XEMFo2A==}
@@ -1663,6 +1666,8 @@ snapshots:
   '@textlint/ast-node-types@12.6.1': {}
 
   '@textlint/ast-node-types@13.4.1': {}
+
+  '@textlint/ast-node-types@14.0.4': {}
 
   '@textlint/ast-node-types@4.4.3': {}
 
