@@ -29,6 +29,15 @@
 			"matchDepTypes": ["devDependencies"],
 			"semanticCommitType": "chore",
 			"semanticCommitScope": "deps-dev"
+		},
+		{
+			"groupName": "textlint",
+			"matchPackageNames": [
+				"textlint"
+			],
+			"matchPackagePrefixes": [
+				"@textlint/"
+			]
 		}
 	],
 	"customManagers": [
