@@ -28,20 +28,40 @@ npm以外のパッケージマネージャーを使用している場合は適�
    && echo "$FILES" | xargs git add
    ```
    <!-- markdownlint-restore -->
-2. `package.json`に次の行を追記する
+2. [Linux/macOS]`.githooks/`ディレクトリ内のファイルに実行権限を付与する
+
+   ```shell
+   chmod +x .githooks/*
+   ```
+
+3. `package.json`に次の行を追記する
    <!-- markdownlint-disable line-length -->
    ```diff json:package.json
    {
       "scripts": {
-   +   "postinstall": "git config --local core.hooksPath .githooks && chmod -R +x .githooks/"
+   +   "postinstall": "git config --local core.hooksPath .githooks"
      }
    }
    ```
    <!-- markdownlint-restore -->
-3. installを行う
+4. installを行う
 
    ```shell
    npm install
+   ```
+
+5. ステージしてコミット
+
+   ```shell
+   git add --chmod=+x -- .githooks/
+   ```
+
+   ```shell
+   git add -- package.json
+   ```
+
+   ```shell
+   git commit
    ```
 
 ## 説明
@@ -105,7 +125,7 @@ eslintを使用している場合は次のようにするとよいでしょう�
 ---
 
 ```json:package.json
-"postinstall": "git config --local core.hooksPath .githooks && chmod -R +x .githooks/"
+"postinstall": "git config --local core.hooksPath .githooks
 ```
 
 `postinstall`スクリプトはインストールが終わった後に実行されます。
