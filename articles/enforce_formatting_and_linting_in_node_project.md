@@ -125,7 +125,7 @@ eslintを使用している場合は次のようにするとよいでしょう�
 ---
 
 ```json:package.json
-"postinstall": "git config --local core.hooksPath .githooks
+"postinstall": "git config --local core.hooksPath .githooks"
 ```
 
 `postinstall`スクリプトはインストールが終わった後に実行されます。
