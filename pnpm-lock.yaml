@@ -28,7 +28,7 @@ importers:
         specifier: 14.0.4
         version: 14.0.4
       markdownlint-cli2:
-        specifier: ^0.13.0
+        specifier: 0.13.0
         version: 0.13.0
       textlint:
         specifier: 14.0.4
