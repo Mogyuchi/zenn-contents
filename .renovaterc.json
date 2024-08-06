@@ -21,30 +21,37 @@
 	"reviewersFromCodeOwners": true,
 	"packageRules": [
 		{
-			"matchDepTypes": ["dependencies", "require"],
+			"matchDepTypes": [
+				"dependencies",
+				"require"
+			],
 			"semanticCommitType": "deps",
 			"semanticCommitScope": null
 		},
 		{
-			"matchDepTypes": ["devDependencies"],
+			"matchDepTypes": [
+				"devDependencies"
+			],
 			"semanticCommitType": "chore",
 			"semanticCommitScope": "deps-dev"
 		},
 		{
 			"groupName": "textlint",
 			"matchPackageNames": [
-				"textlint"
-			],
-			"matchPackagePrefixes": [
-				"@textlint/"
+				"textlint",
+				"@textlint/{/,}**"
 			]
 		}
 	],
 	"customManagers": [
 		{
 			"customType": "regex",
-			"fileMatch": ["(^|/)\\.npmrc$"],
-			"matchStrings": ["use-node-version=(?<currentValue>.*?)\\n"],
+			"fileMatch": [
+				"(^|/)\\.npmrc$"
+			],
+			"matchStrings": [
+				"use-node-version=(?<currentValue>.*?)\\n"
+			],
 			"depNameTemplate": "node",
 			"datasourceTemplate": "node-version"
 		}
