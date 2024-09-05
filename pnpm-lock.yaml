@@ -40,8 +40,8 @@ importers:
         specifier: 10.0.1
         version: 10.0.1(textlint@14.0.4)
       textlint-rule-terminology:
-        specifier: 5.1.9
-        version: 5.1.9
+        specifier: 5.2.7
+        version: 5.2.7
 
 packages:
 
@@ -1325,9 +1325,9 @@ packages:
     resolution: {integrity: sha512-vavAMRXOgBVNF6nyEEmL3DBK19iRpDcoIwW+swQ+CbGiu7lju6t+JklA1MHweoWtadgt4ISVUsXLyDq34ddcwA==}
     engines: {node: '>=4'}
 
-  strip-json-comments@3.1.1:
-    resolution: {integrity: sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==}
-    engines: {node: '>=8'}
+  strip-json-comments@5.0.1:
+    resolution: {integrity: sha512-0fk9zBqO67Nq5M/m45qHCJxylV/DhBlIOVExqgOMiCCrzrhU6tCibRXNqE3jwJLftzE9SNuZtYbpzcO+i9FiKw==}
+    engines: {node: '>=14.16'}
 
   structured-source@3.0.2:
     resolution: {integrity: sha512-Ap7JHfKgmH40SUjumqyKTHYHNZ8GvGQskP34ks0ElHCDEig+bYGpmXVksxPSrgcY9rkJqhVMzfeg5GIpZelfpQ==}
@@ -1456,8 +1456,8 @@ packages:
   textlint-rule-sentence-length@5.0.0:
     resolution: {integrity: sha512-NRbzbMYSKZVZWTarJo/uVpHMGe91uZyR4td6fipWmDAwJjjX2HYa6aYEfLM/X99ymo9aLUnOD6wWaUttgViRbw==}
 
-  textlint-rule-terminology@5.1.9:
-    resolution: {integrity: sha512-VTewy0iVdPmalM2JxW/zI300693Q33JcX7+QdXyWFeeS2p9tFkvdlR8VNVvGM9VGqRWdX5MDuPBspVo7DWzrkw==}
+  textlint-rule-terminology@5.2.7:
+    resolution: {integrity: sha512-dfOHeHarrdtelG/FiuBzpQ+1QULrokUT0Llo9LKzDG02Ybg0L9doxztl8X3NzaNj1nuREkwI/+9OTuhvsPdEjw==}
     engines: {node: '>=20'}
 
   textlint-tester@13.4.1:
@@ -3202,7 +3202,7 @@ snapshots:
 
   strip-bom@3.0.0: {}
 
-  strip-json-comments@3.1.1: {}
+  strip-json-comments@5.0.1: {}
 
   structured-source@3.0.2:
     dependencies:
@@ -3458,10 +3458,10 @@ snapshots:
       textlint-rule-helper: 2.3.1
       textlint-util-to-string: 3.3.4
 
-  textlint-rule-terminology@5.1.9:
+  textlint-rule-terminology@5.2.7:
     dependencies:
       lodash: 4.17.21
-      strip-json-comments: 3.1.1
+      strip-json-comments: 5.0.1
       textlint-rule-helper: 2.3.1
 
   textlint-tester@13.4.1:
