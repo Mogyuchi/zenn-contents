@@ -14,10 +14,10 @@
 	},
 	"devDependencies": {
 		"@proofdict/textlint-rule-proofdict": "3.1.2",
-		"@textlint/ast-node-types": "14.3.0",
-		"@textlint/types": "14.3.0",
+		"@textlint/ast-node-types": "14.4.0",
+		"@textlint/types": "14.4.0",
 		"markdownlint-cli2": "0.15.0",
-		"textlint": "14.3.0",
+		"textlint": "14.4.0",
 		"textlint-rule-preset-ja-spacing": "2.4.3",
 		"textlint-rule-preset-ja-technical-writing": "10.0.1",
 		"textlint-rule-terminology": "5.2.12"
