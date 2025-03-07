@@ -1,6 +1,6 @@
 {
 	"name": "zenn-contents",
-	"packageManager": "pnpm@10.6.0",
+	"packageManager": "pnpm@10.6.1",
 	"scripts": {
 		"start": "zenn preview",
 		"lint:text": "textlint .",
