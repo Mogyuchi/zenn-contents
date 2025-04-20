@@ -78,17 +78,32 @@ packages:
   '@kvs/env@1.2.0':
     resolution: {integrity: sha512-MJVudIYrHg1E0AKrognxK5EdqKFjYSsHsa47WQf8rIyzoeSK614mnqJ+2+ZJr7nY9nUYkYsFivxXbQffIzcqcg==}
 
+  '@kvs/env@2.2.0':
+    resolution: {integrity: sha512-G66d4q8ATY7jsKz6KovHE9ScQ4HSs9BtkRUiLMVI/nHeHHA+KDt4qYZQ2KmaC9LPIAc7bJmR7uAH8DTBamJKhw==}
+
   '@kvs/indexeddb@1.2.0':
     resolution: {integrity: sha512-elB0vtvM33ayqHVSL2jl5TMtoW/YaESuJVGf9yEO+8KZjhs+xxSDoUIEJYn9qD7pZc/LyMXVFBglr5Pxf2vWAQ==}
+
+  '@kvs/indexeddb@2.1.4':
+    resolution: {integrity: sha512-7xIF5hLREZFXnsYnR51LTAaO+pWFDMoBzF2vdl/RVnPP+7/WJS+7npO1aZ+EDrAMeJwAARhXFF/3NI3Wy3DCXQ==}
 
   '@kvs/node-localstorage@1.2.0':
     resolution: {integrity: sha512-KJU0o2wjavwfTMpvfzA2vqPFOqb67n2UGvbsHi0bgwfVtkzd0fS/Ev/my9sayDHrXLx7SJJvXtqE8VM4nzEjqw==}
 
+  '@kvs/node-localstorage@2.2.0':
+    resolution: {integrity: sha512-ADvFxbCZF2t4vzwU2Ng3I7+vviSLTc5bkCGgVUeEfcRqaM781ZAO5bHn9kiYUIziIf5fESkOnQxrJQqmQtpI0g==}
+
   '@kvs/storage@1.2.0':
     resolution: {integrity: sha512-Zd9rA4U3/h8n3CxNUzMnsz5+UPOng1dXOc0MyEy0RQzF0XlWSTyOrxErn57bPbO0MHoHdw11MEzhDDRYsNj7ZA==}
 
+  '@kvs/storage@2.1.4':
+    resolution: {integrity: sha512-d4sdTdCjAsyX9v9Q3rFciG9rUs24KNIMUzRv3fVIpbehlnfTWZ5TACucN6LAMFZaqgEnBKLxghwfUCrsaYDzig==}
+
   '@kvs/types@1.2.0':
     resolution: {integrity: sha512-88x1wFRMYg6DyCuX2jeLx2s8q7H3ayRtPD+OVhsSC5v7ek+FP7cv9ooVCC/+Ib5QzNWzkZpd4Uap6O9HrAxq6g==}
+
+  '@kvs/types@2.1.4':
+    resolution: {integrity: sha512-XtTOUatnJrDcuYNPfN+9x1xuVp11IuyPi9zOLVJPpfnKp+vUCatka/Crp2cfz0uKt4QE1Pb4Dg/TNYgVYA2Org==}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -275,8 +290,8 @@ packages:
   '@types/ms@2.1.0':
     resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
 
-  '@types/node@22.14.0':
-    resolution: {integrity: sha512-Kmpl+z84ILoG+3T/zQFyAJsU6EPTmOCj8/2+83fSN6djd6I4o7uOuGIH6vq3PrjY5BGitSbFuMN18j3iknubbA==}
+  '@types/node@22.14.1':
+    resolution: {integrity: sha512-u0HuPQwe/dHrItgHHpmw3N2fYCR6x4ivMNbPHRkBVP4CvN+kiRrKHWk3i8tXiO/joPwXLMYvF9TTF0eqgHIuOw==}
 
   '@types/unist@2.0.11':
     resolution: {integrity: sha512-CmBKiL6NNo/OqgmMn95Fk9Whlp2mtvIv+KNpQKN2F4SjvrEesubTRWGYSg+BnWZOnlCaSTU1sMpsBOzgbYhnsA==}
@@ -738,8 +753,8 @@ packages:
   hastscript@5.1.2:
     resolution: {integrity: sha512-WlztFuK+Lrvi3EggsqOkQ52rKbxkXL3RwB6t5lwoa8QLMemoWfBuL43eDrwOamJyR7uKQKdmKYaBH1NZBiIRrQ==}
 
-  hookified@1.8.1:
-    resolution: {integrity: sha512-GrO2l93P8xCWBSTBX9l2BxI78VU/MAAYag+pG8curS3aBGy0++ZlxrQ7PdUOUVMbn5BwkGb6+eRrnf43ipnFEA==}
+  hookified@1.8.2:
+    resolution: {integrity: sha512-5nZbBNP44sFCDjSoB//0N7m508APCgbQ4mGGo1KJGBYyCKNHfry1Pvd0JVHZIxjdnqn8nFRBAN/eFB6Rk/4w5w==}
 
   hosted-git-info@2.8.9:
     resolution: {integrity: sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==}
@@ -973,18 +988,18 @@ packages:
   jsonc-parser@3.3.1:
     resolution: {integrity: sha512-HUgH65KyejrUFPvHFPbqOY0rsFip3Bo5wb4ngvdi1EpCYWUQDC5V+Y7mZws+DLkr4M//zQJoanu1SP+87Dv1oQ==}
 
-  katex@0.16.21:
-    resolution: {integrity: sha512-XvqR7FgOHtWupfMiigNzmh+MgUVmDGU2kXZm899ZkPfcuoPuFxyHmXsgATDpFZDAXCI8tvinaVcDo8PIIJSo4A==}
+  katex@0.16.22:
+    resolution: {integrity: sha512-XCHRdUw4lf3SKBaJe4EvgqIuWwkPSo9XoeO8GjQW94Bp7TWv9hNhzZjZ+OH9yf1UmLygb7DIT5GSFQiyt16zYg==}
     hasBin: true
 
-  keyv@5.3.2:
-    resolution: {integrity: sha512-Lji2XRxqqa5Wg+CHLVfFKBImfJZ4pCSccu9eVWK6w4c2SDFLd8JAn1zqTuSFnsxb7ope6rMsnIHfp+eBbRBRZQ==}
+  keyv@5.3.3:
+    resolution: {integrity: sha512-Rwu4+nXI9fqcxiEHtbkvoes2X+QfkTRo1TMkPfwzipGsJlJO/z69vqB4FNl9xJ3xCpAcbkvmEabZfPzrwN3+gQ==}
 
   kuromoji@0.1.2:
     resolution: {integrity: sha512-V0dUf+C2LpcPEXhoHLMAop/bOht16Dyr+mDiIE39yX3vqau7p80De/koFqpiTcL1zzdZlc3xuHZ8u5gjYRfFaQ==}
 
-  kuromojin@3.0.0:
-    resolution: {integrity: sha512-3h3qnn/NVVhqoKFP4oc7e6apO2B01Atc056oiVlIY7Uoup4rhrnBe28g3y9lK1HTmLDQEejvXB+3I3qxAneF7A==}
+  kuromojin@3.0.1:
+    resolution: {integrity: sha512-E4rLmbTid8ZGH8Fw421UXvfgCe0IXGFKhUw/IosBVW6ootxVGKGbtb0UPQAvPswgsXX/8UuPiE+amz1NN11Uzg==}
 
   levn@0.4.1:
     resolution: {integrity: sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ==}
@@ -1955,9 +1970,18 @@ snapshots:
       '@kvs/indexeddb': 1.2.0
       '@kvs/node-localstorage': 1.2.0
 
+  '@kvs/env@2.2.0':
+    dependencies:
+      '@kvs/indexeddb': 2.1.4
+      '@kvs/node-localstorage': 2.2.0
+
   '@kvs/indexeddb@1.2.0':
     dependencies:
       '@kvs/types': 1.2.0
+
+  '@kvs/indexeddb@2.1.4':
+    dependencies:
+      '@kvs/types': 2.1.4
 
   '@kvs/node-localstorage@1.2.0':
     dependencies:
@@ -1966,11 +1990,23 @@ snapshots:
       mkdirp: 1.0.4
       node-localstorage: 2.2.1
 
+  '@kvs/node-localstorage@2.2.0':
+    dependencies:
+      '@kvs/storage': 2.1.4
+      app-root-path: 3.1.0
+      node-localstorage: 2.2.1
+
   '@kvs/storage@1.2.0':
     dependencies:
       '@kvs/types': 1.2.0
 
+  '@kvs/storage@2.1.4':
+    dependencies:
+      '@kvs/types': 2.1.4
+
   '@kvs/types@1.2.0': {}
+
+  '@kvs/types@2.1.4': {}
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
@@ -2280,7 +2316,7 @@ snapshots:
   '@types/glob@7.2.0':
     dependencies:
       '@types/minimatch': 5.1.2
-      '@types/node': 22.14.0
+      '@types/node': 22.14.1
 
   '@types/katex@0.16.7': {}
 
@@ -2301,7 +2337,7 @@ snapshots:
 
   '@types/ms@2.1.0': {}
 
-  '@types/node@22.14.0':
+  '@types/node@22.14.1':
     dependencies:
       undici-types: 6.21.0
 
@@ -2318,7 +2354,7 @@ snapshots:
 
   analyze-desumasu-dearu@5.0.2:
     dependencies:
-      kuromojin: 3.0.0
+      kuromojin: 3.0.1
 
   ansi-regex@5.0.1: {}
 
@@ -2399,8 +2435,8 @@ snapshots:
 
   cacheable@1.8.10:
     dependencies:
-      hookified: 1.8.1
-      keyv: 5.3.2
+      hookified: 1.8.2
+      keyv: 5.3.3
 
   call-bind-apply-helpers@1.0.2:
     dependencies:
@@ -2698,7 +2734,7 @@ snapshots:
     dependencies:
       cacheable: 1.8.10
       flatted: 3.3.3
-      hookified: 1.8.1
+      hookified: 1.8.2
 
   flatted@3.3.3: {}
 
@@ -2844,7 +2880,7 @@ snapshots:
       property-information: 5.6.0
       space-separated-tokens: 1.1.5
 
-  hookified@1.8.1: {}
+  hookified@1.8.2: {}
 
   hosted-git-info@2.8.9: {}
 
@@ -3065,11 +3101,11 @@ snapshots:
 
   jsonc-parser@3.3.1: {}
 
-  katex@0.16.21:
+  katex@0.16.22:
     dependencies:
       commander: 8.3.0
 
-  keyv@5.3.2:
+  keyv@5.3.3:
     dependencies:
       '@keyv/serialize': 1.0.3
 
@@ -3079,8 +3115,9 @@ snapshots:
       doublearray: 0.0.2
       zlibjs: 0.3.1
 
-  kuromojin@3.0.0:
+  kuromojin@3.0.1:
     dependencies:
+      '@kvs/env': 2.2.0
       kuromoji: 0.1.2
       lru_map: 0.4.1
 
@@ -3364,7 +3401,7 @@ snapshots:
     dependencies:
       '@types/katex': 0.16.7
       devlop: 1.1.0
-      katex: 0.16.21
+      katex: 0.16.22
       micromark-factory-space: 2.0.1
       micromark-util-character: 2.1.1
       micromark-util-symbol: 2.0.1
@@ -3998,7 +4035,7 @@ snapshots:
 
   textlint-rule-ja-no-abusage@3.0.0:
     dependencies:
-      kuromojin: 3.0.0
+      kuromojin: 3.0.1
       morpheme-match-textlint: 2.0.6
       textlint-rule-prh: 5.3.0
 
@@ -4010,7 +4047,7 @@ snapshots:
   textlint-rule-ja-no-redundant-expression@4.0.1:
     dependencies:
       '@textlint/regexp-string-matcher': 1.1.1
-      kuromojin: 3.0.0
+      kuromojin: 3.0.1
       morpheme-match: 2.0.4
       morpheme-match-all: 2.0.5
       textlint-rule-helper: 2.3.1
@@ -4030,11 +4067,11 @@ snapshots:
   textlint-rule-ja-no-successive-word@2.0.1:
     dependencies:
       '@textlint/regexp-string-matcher': 1.1.1
-      kuromojin: 3.0.0
+      kuromojin: 3.0.1
 
   textlint-rule-ja-no-weak-phrase@2.0.0:
     dependencies:
-      kuromojin: 3.0.0
+      kuromojin: 3.0.1
       morpheme-match: 2.0.4
       morpheme-match-all: 2.0.5
 
@@ -4082,38 +4119,38 @@ snapshots:
 
   textlint-rule-max-ten@5.0.0:
     dependencies:
-      kuromojin: 3.0.0
+      kuromojin: 3.0.1
       sentence-splitter: 5.0.0
       textlint-rule-helper: 2.3.1
       textlint-util-to-string: 3.3.4
 
   textlint-rule-no-double-negative-ja@2.0.1:
     dependencies:
-      kuromojin: 3.0.0
+      kuromojin: 3.0.1
 
   textlint-rule-no-doubled-conjunction@3.0.0:
     dependencies:
-      kuromojin: 3.0.0
+      kuromojin: 3.0.1
       sentence-splitter: 5.0.0
       textlint-rule-helper: 2.3.1
 
   textlint-rule-no-doubled-conjunctive-particle-ga@3.0.0:
     dependencies:
-      kuromojin: 3.0.0
+      kuromojin: 3.0.1
       sentence-splitter: 5.0.0
       textlint-rule-helper: 2.3.1
       textlint-util-to-string: 3.3.4
 
   textlint-rule-no-doubled-joshi@5.1.0:
     dependencies:
-      kuromojin: 3.0.0
+      kuromojin: 3.0.1
       sentence-splitter: 5.0.0
       textlint-rule-helper: 2.3.1
       textlint-util-to-string: 3.3.4
 
   textlint-rule-no-dropping-the-ra@3.0.0:
     dependencies:
-      kuromojin: 3.0.0
+      kuromojin: 3.0.1
       textlint-rule-helper: 2.3.1
 
   textlint-rule-no-exclamation-question-mark@1.1.0:
